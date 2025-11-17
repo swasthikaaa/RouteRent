@@ -29,14 +29,6 @@
       "theme_color": "#FF6B35",
       "background_color": "#FFFFFF"
     },
-    "plugins": [
-      [
-        "expo-location",
-        {
-          "locationAlwaysAndWhenInUsePermissions": "Allow RouteRent to access your location"
-        }
-      ]
-    ],
     "platforms": [
       "ios",
       "android",
