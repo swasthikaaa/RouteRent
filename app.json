@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "RouteRent",
+    "slug": "routerent",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.routerent.app"
+    },
+    "android": {
+      "package": "com.routerent.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "display": "standalone",
+      "theme_color": "#FF6B35",
+      "background_color": "#FFFFFF"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermissions": "Allow RouteRent to access your location"
+        }
+      ]
+    ],
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
+  }
+}
