@@ -11,7 +11,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "build:web": "expo export:web",
-    "build": "expo export:web --output-dir=web-build",
+    "build": "npm run build:web -- --output-dir=web-build",
     "dev": "expo start --dev-client",
     "lint": "eslint .",
     "test": "jest",
